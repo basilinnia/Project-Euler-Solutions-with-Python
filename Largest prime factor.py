@@ -15,3 +15,5 @@ while i < num:
     i += 1
 
 print(num)
+
+# answer: 6857
