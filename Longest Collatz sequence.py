@@ -20,14 +20,14 @@ def sequence(n):
     if n == 1:
         return 1
     if n % 2 == 0:
-        y = n // 2
+        n //= 2
     else:
-        y = n * 3 + 1
+        n = n * 3 + 1
 
-    return sequence(y) + 1
+    return sequence(n) + 1
 
 
-ans = max(range(1, 1000000), key=sequence)
-print(ans)
+answer = max(range(1, 1000000), key=sequence)
+print(answer)
 
 
