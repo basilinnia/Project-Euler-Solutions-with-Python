@@ -30,4 +30,4 @@ def sequence(n):
 answer = max(range(1, 1000000), key=sequence)
 print(answer)
 
-
+# answer: 837799
